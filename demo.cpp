@@ -12,7 +12,7 @@ int main()
     sor.RegisterCallback(&app);
     sor.start();
 
-    this_thread::sleep_for(chrono::seconds(5));
+    // this_thread::sleep_for(chrono::seconds(5));
 
     sor.stop();
 
